@@ -1,0 +1,38 @@
+# Ignorar arquivos e pastas gerados automaticamente
+
+# Virtual environment
+.env/
+venv/
+ENV/
+env/
+.venv/
+
+# Byte‐compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+
+# IDEs e editores
+.vscode/
+.idea/
+*.sw?
+
+# Sistema operacional
+.DS_Store
+
+# Arquivos de teste/cache
+.cache/
+.pytest_cache/
+
+# Arquivos de cobertura
+htmlcov/
+.coverage
+
+# Arquivos de lock de gerenciadores
+Pipfile.lock
+
+# Jupyter
+.ipynb_checkpoints/
